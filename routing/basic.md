@@ -38,7 +38,7 @@ drop.get("foo", "bar", "baz") { request in
 }
 ```
 
-You can also use `/`, but commas are often easier to type and work better with type safe route [parameters](parameters.md).
+You can also use `/`, but commas are often easier to type and work better with type safe route [parameters](parameters.md). Type safe routing is currently [limited](parameters.md#limits) to three path parts. You are still free to do traditional [manual](parameters.md#manual) routing.
 
 ## Alternate
 
